@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-chat-99b7c": {
+      "hosting": {
+        "firebase-chat": [
+          "fir-chat-99b7c"
+        ]
+      }
+    }
+  }
+}
