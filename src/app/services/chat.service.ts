@@ -64,7 +64,8 @@ export class ChatService {
   insertMessage(texto: string) {
     const mensaje: Mensaje = {
       nombre: this.usuario.nombre,
-      mensaje: this.usuario.uid,
+      mensaje: texto,
+      uid: this.usuario.uid,
       fecha: new Date().getTime()
     };
 
