@@ -11,7 +11,7 @@ export class ChatComponent implements OnInit {
   mensaje = '';
   elemento: any;
 
-  constructor(private chatService: ChatService) {
+  constructor(public chatService: ChatService) {
 
     this.chatService.loadMessaje()
       .subscribe(() => {
